@@ -14,21 +14,21 @@
 <body>
     <div class="container">
         <ul>
-            <li><a onclick="drop" href="#">Home</a></li>
+            <li><a href="#">Home</a></li>
             <li><a href="#">Portfolio</a></li>
             <li><a href="#">Contact</a></li>
             <li><a href="#">About</a></li>
             <div class="menu-btn-burger">
-                <img src="" alt="">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Hamburger_icon_white.svg/1024px-Hamburger_icon_white.svg.png" 
+                style="width: 10%; height: 10%; display: flex; justify-content: right;">
             </div>
         </ul>
         <div class="intro">
             <div class="left">
-                <h2>Hi, I'm Nassef Khachiche <br> I'm a software developer student</h2>
+                <h1>Hi, I'm Nassef Khachiche </h1>
             </div>
             <div class="right">
-                <img src="https://vbcnotarissen.nl/wp-content/uploads/2015/02/placeholder-hi.png"
-                    style="width: 600px; height: 600px;">
+                <img src="https://vbcnotarissen.nl/wp-content/uploads/2015/02/placeholder-hi.png">
             </div>
         </div>
     </div>

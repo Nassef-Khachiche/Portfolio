@@ -15,6 +15,7 @@ body {
     padding: 1rem;
 }
 .right {
+    width: 100%;
     padding: 1rem;
 }
 
@@ -38,6 +39,7 @@ p {
 .container {
     background-image: linear-gradient(to right, #28B3B2 , #BFFFFF, #7ABFBF);
     text-align: center;
+    margin: 0;
 }
 
 ul {
@@ -45,7 +47,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: #403E3E;
 }
 
 li {
@@ -64,3 +66,21 @@ li a:hover {
     background-color: #111;
 }
 
+@media only screen and (max-width: 950px) {
+    .intro {
+      display: block;
+    }
+
+    .left {
+        justify-content: center;
+        width: 100%;
+    }
+
+    .menu-btn-burger {
+        display: flex;
+    }
+
+    .right img {
+        width: 100%;
+    }
+  }
